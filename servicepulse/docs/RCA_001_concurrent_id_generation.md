@@ -83,7 +83,7 @@ Target Matrix:
 ## 10. Result
 Testing the `benchmark_concurrency_after.py` script with the same 50 concurrent requests shows massive improvements:
 * **Baseline (before):** 98% Failure Rate, 10.6 seconds due to extensive DB locking/retries upon `IntegrityError`.
-* **Transformed (after):** 0% Failure Rate, 100% Success, 3.8 seconds to process completely.
+* **Transformed (after):** 0% Failure Rate, 100% Success, ~5.5 seconds to process completely.
 All 78 unit/integration tests continue to pass because the 20-length identifier format `REQ-XXXXXXXX` remains compliant with the `String(20)` length field constraint.
 
 ## 11. Remaining Risks

@@ -46,7 +46,7 @@ Project 4 brings Project 3’s transformation into absolute traceability, provin
 3. **The Design Decision:** Use truncated hex representations of `uuid.uuid4()` instead of DB sequences or Application Mutexes.
 4. **The Implementation:** `app/services/request_service.py:next_request_id()` rewritten to mathematically avoid concurrency collisions.
 5. **The Test / Validation:** `tests/api/test_requests.py` for endpoint contract validation; `benchmarks/benchmark_concurrency_after.py` for performance evaluation.
-6. **The Result:** Time reduced from ~10.6s to ~3.8s. Failure rate dropped from ~100% to 0%. (See `benchmarks/transformed_results.json`).
+6. **The Result:** Time reduced from ~10.6s to ~5.5s. Failure rate dropped from ~100% to 0%. (See `benchmarks/transformed_results.json`).
 
 Here, the engineering decision logic moves entirely transparently through design into code, test, and hard evidence.
 

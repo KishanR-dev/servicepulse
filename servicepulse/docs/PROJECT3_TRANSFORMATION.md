@@ -26,7 +26,7 @@ Modified the domain repository layer and services (`request_service.py`, `incide
 ## 4. Benchmark Validation (After Transformation)
 The original bottleneck was eradicated.
 - **Transformed Result**:
-  - Time elapsed: ~3.8s
+  - Time elapsed: ~5.5s
   - Failures: 0 (0%)
   - Throughput: Scales perfectly bound only by basic ASGI capability. 
 
