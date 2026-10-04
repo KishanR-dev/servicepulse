@@ -129,7 +129,7 @@ STAGE: ALL QUALITY GATES
 [EXEC] ruff format --check .                 -> SUCCESS (clean formatting)
 [EXEC] pip-audit -r requirements.txt         -> SUCCESS (0 vulnerabilities)
 [EXEC] bandit -r app                         -> SUCCESS (0 security issues)
-[EXEC] pytest tests/ --cov=app --cov-fail-under=85 -> SUCCESS (78 passed, 94.65% coverage)
+[EXEC] pytest tests/ --cov=app --cov-fail-under=85 -> SUCCESS (78 passed, 94.62% coverage)
 [EXEC] docker build -t servicepulse:local .  -> SUCCESS (image built)
 [EXEC] smoke_test.py --base-url http://...   -> SUCCESS (6/6 smoke suites passed)
 

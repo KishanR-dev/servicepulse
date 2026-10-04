@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-04T08:49:24.347698Z",
+  "generated_at": "2026-10-04T09:23:17.439176Z",
   "executive_status": {
     "version": "v1.4.0",
-    "commit": "d4aa3b911ccb442380a6f79affa61418fef5108f",
+    "commit": "774a4946a5048e00ed9a8e1133a24a3166cf0818",
     "branch": "master",
     "latest_tag": "v1.4.0",
     "health": "PASS",
@@ -194,7 +194,7 @@
   },
   "quality_ci": {
     "status": "PASS",
-    "test_coverage": 94.65,
+    "test_coverage": 94.62,
     "test_passed": true,
     "lint_passed": true,
     "security_passed": true,
