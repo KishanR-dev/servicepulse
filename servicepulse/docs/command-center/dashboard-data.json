@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-03T23:57:03.201919Z",
+  "generated_at": "2026-10-04T08:49:24.347698Z",
   "executive_status": {
-    "version": "v1.3.0",
-    "commit": "07fbfea76a9fd292c7fd6ee7b834a6d246b754e5",
+    "version": "v1.4.0",
+    "commit": "d4aa3b911ccb442380a6f79affa61418fef5108f",
     "branch": "master",
-    "latest_tag": "v1.3.0",
+    "latest_tag": "v1.4.0",
     "health": "PASS",
     "health_reason": "All core portfolio artifacts present and valid."
   },
